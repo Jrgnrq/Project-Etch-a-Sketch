@@ -10,6 +10,11 @@ body{
     text-align: center;
     font-size: 48px;
 }
+#sizesOptions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 .sketchBody{
     display: flex;
     height:500px;
