@@ -2,6 +2,7 @@ var sketch = document.getElementById("sketch")
 
 
 let columns 
+//function that change the number of squares inside the sketchtable
 function sketchTable(columns){
     
     let round = 0
