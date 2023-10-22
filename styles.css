@@ -10,15 +10,18 @@ body{
     text-align: center;
     font-size: 48px;
 }
-#sizesOptions{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
 .sketchBody{
     display: flex;
     height:500px;
     margin-bottom: 0%;
+}
+#sizesOptions, #colorOptions{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+.boxset{
+    margin: 20px;
 }
 .sketchSettings{
     flex: 1;
@@ -39,7 +42,7 @@ body{
   }
 .square{
     margin: 0;
-    border: 1px gray solid;
+    border: 0.5px gray solid;
     background :white;
     color : black;
     width: auto;

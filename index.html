@@ -10,20 +10,33 @@
     <div id="title">Etch a Sketch</div>
     <div class="sketchBody">
         <div class="sketchSettings">
-            <div class="Sketchsize">
+            <div class="sketchSize">
                 <h2>Select the size of the sketch: </h2>
                 <div id="sizesOptions">
-                    <div>
+                    <div class="boxset">
                         <p>Small</p>
                         <input class="skechSizeRadio" type="radio" name="size" id="smallSkech">
                     </div>
-                    <div>
+                    <div class="boxset">
                         <p>Medium</p>
                         <input class="skechSizeRadio" type="radio" name="size" id="mediumSkech">
                     </div>
-                    <div>
+                    <div class="boxset">
                         <p>Big</p>
                         <input class="skechSizeRadio" type="radio" name="size" id="bigSkech">
+                    </div>
+                </div>
+            </div>    
+            <div class="sketchColor">
+                <h2>Select color type: </h2>
+                <div id="colorOptions">
+                    <div class="boxset">
+                        <p>Classic Color</p>
+                        <input class="backgroundSet" type="radio" name="colorType" value="classicColor" id="classicColor">
+                    </div>
+                    <div class="boxset">
+                        <p>Random Color</p>
+                        <input class="backgroundSet" type="radio" name="colorType" value="randomColor" id="randomColor">
                     </div>
                 </div>
             </div>
